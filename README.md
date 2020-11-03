@@ -33,6 +33,6 @@ Read more about [Step implementations in Java](http://getgauge.io/documentation/
 mvn test -Dtags=case1
 * Case 2
 mvn test -Dtags=case2
-* Case 2
+* Case 3
 mvn test -Dtags=case3
 ```
