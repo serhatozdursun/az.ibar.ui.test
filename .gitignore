@@ -1,0 +1,41 @@
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+#Sys files
+*.DS_Store
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+### VS Code ###
+.vscode/
+
+##properties##
+roof-flight-api-services-test/src/main/resources/run.properties
+
+##testLog##
+roof-flight-api-services-test/log4j/api-test.log
+
+reports
+reports/*.*
+*.log
+
