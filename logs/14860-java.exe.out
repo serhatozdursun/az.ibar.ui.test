@@ -1,0 +1,23 @@
+Listening for transport dt_socket at address: 50931
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 693milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 693"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 50960"}
+{"logLevel":"info","message":"Listening on port:50960"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.verifyVowelsCountInWord' and 'StepImplementation.verifyVowelsCountInWord'"}
+{"logLevel":"debug","message":"Found The word {} has {} vowels. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.setLanguageVowels' and 'StepImplementation.setLanguageVowels'"}
+{"logLevel":"debug","message":"Found Vowels in English language are {}. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.verifyVowelsCountInMultipleWords' and 'StepImplementation.verifyVowelsCountInMultipleWords'"}
+{"logLevel":"debug","message":"Found Almost all words have vowels {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tThe word {} has {} vowels. : public void verifyVowelsCountInWord(String word, int expectedCount)"}
+{"logLevel":"debug","message":"\tAlmost all words have vowels {} : public void verifyVowelsCountInMultipleWords(Table wordsTable)"}
+{"logLevel":"debug","message":"\tVowels in English language are {}. : public void setLanguageVowels(String vowelString)"}
+Listening for transport dt_socket at address: 50931
+{"logLevel":"debug","message":"Executing 'Vowels in English language are {}.' using 'class StepImplementation.setLanguageVowels"}
+{"logLevel":"debug","message":"Executing 'The word {} has {} vowels.' using 'class StepImplementation.verifyVowelsCountInWord"}

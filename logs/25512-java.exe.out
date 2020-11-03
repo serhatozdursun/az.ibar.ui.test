@@ -1,0 +1,60 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1260milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1260"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 53446"}
+{"logLevel":"info","message":"Listening on port:53446"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'tests.StepImplementation.checkPageLanguage' and 'tests.StepImplementation.checkPageLanguage'"}
+{"logLevel":"debug","message":"Found Check the language of the page is {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.StepImplementation.checkValidationErrorMsg' and 'tests.StepImplementation.checkValidationErrorMsg'"}
+{"logLevel":"debug","message":"Found Checking if a validation error message is displayed in the {} field in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.StepImplementation.clickElement' and 'tests.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Click {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.StepImplementation.sendKeys' and 'tests.StepImplementation.sendKeys'"}
+{"logLevel":"debug","message":"Found Type {} in the {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.StepImplementation.clickLanguageSwitchButton' and 'tests.StepImplementation.clickLanguageSwitchButton'"}
+{"logLevel":"debug","message":"Found Click language {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.StepImplementation.isElementDisplayed' and 'tests.StepImplementation.isElementDisplayed'"}
+{"logLevel":"debug","message":"Found Verify {} is display on the page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.StepImplementation.clickApplyOnline' and 'tests.StepImplementation.clickApplyOnline'"}
+{"logLevel":"debug","message":"Found Click the {} for credit button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.StepImplementation.assertCurrentUrl' and 'tests.StepImplementation.assertCurrentUrl'"}
+{"logLevel":"debug","message":"Found Checks if the {} page is loaded in current project scope."}
+{"logLevel":"debug","message":"Comparing 'tests.StepImplementation.goTo' and 'tests.StepImplementation.goTo'"}
+{"logLevel":"debug","message":"Found Go to {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick language {} : public void clickLanguageSwitchButton(String by) throws UndefinedEnum, NoSuchSelector"}
+{"logLevel":"debug","message":"\tType {} in the {} : public void sendKeys(String keys, String elm) throws UndefinedEnum, NoSuchSelector"}
+{"logLevel":"debug","message":"\tVerify {} is display on the page : public void isElementDisplayed(String elm) throws Exception"}
+{"logLevel":"debug","message":"\tGo to {} : public void goTo(String uri) throws InterruptedException"}
+{"logLevel":"debug","message":"\tChecks if the {} page is loaded : public void assertCurrentUrl(String page)"}
+{"logLevel":"debug","message":"\tClick {} : public void clickElement(String elm) throws UndefinedEnum, NoSuchSelector"}
+{"logLevel":"debug","message":"\tChecking if a validation error message is displayed in the {} field : public void checkValidationErrorMsg(String elm) throws UndefinedEnum, NoSuchSelector"}
+{"logLevel":"debug","message":"\tClick the {} for credit button : public void clickApplyOnline(String elm) throws UndefinedEnum, NoSuchSelector"}
+{"logLevel":"debug","message":"\tCheck the language of the page is {} : public void checkPageLanguage(String language) throws NoSuchSelector, InterruptedException, UndefinedEnum"}
+Nov 03, 2020 12:01:21 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 3886
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 03, 2020 12:01:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Go to {}' using 'class tests.StepImplementation.goTo"}
+{"logLevel":"debug","message":"Executing 'Type {} in the {}' using 'class tests.StepImplementation.sendKeys"}
+Nov 03, 2020 12:01:44 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 13463
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 03, 2020 12:01:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Go to {}' using 'class tests.StepImplementation.goTo"}
+{"logLevel":"debug","message":"Executing 'Click the {} for credit button' using 'class tests.StepImplementation.clickApplyOnline"}

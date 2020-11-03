@@ -1,0 +1,36 @@
+Listening for transport dt_socket at address: 51548
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 664milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 664"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51579"}
+{"logLevel":"info","message":"Listening on port:51579"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.verifyVowelsCountInWord' and 'StepImplementation.verifyVowelsCountInWord'"}
+{"logLevel":"debug","message":"Found The word {} has {} vowels. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.setLanguageVowels' and 'StepImplementation.setLanguageVowels'"}
+{"logLevel":"debug","message":"Found Vowels in English language are {}. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.verifyVowelsCountInMultipleWords' and 'StepImplementation.verifyVowelsCountInMultipleWords'"}
+{"logLevel":"debug","message":"Found Almost all words have vowels {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tThe word {} has {} vowels. : public void verifyVowelsCountInWord(String word, int expectedCount)"}
+{"logLevel":"debug","message":"\tAlmost all words have vowels {} : public void verifyVowelsCountInMultipleWords(Table wordsTable)"}
+{"logLevel":"debug","message":"\tVowels in English language are {}. : public void setLanguageVowels(String vowelString)"}
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 22497
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 29, 2020 5:16:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Vowels in English language are {}.' using 'class StepImplementation.setLanguageVowels"}
+{"logLevel":"debug","message":"Executing 'The word {} has {} vowels.' using 'class StepImplementation.verifyVowelsCountInWord"}
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 12843
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 29, 2020 5:16:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Vowels in English language are {}.' using 'class StepImplementation.setLanguageVowels"}
+{"logLevel":"debug","message":"Executing 'Almost all words have vowels {}' using 'class StepImplementation.verifyVowelsCountInMultipleWords"}

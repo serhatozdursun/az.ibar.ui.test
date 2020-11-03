@@ -1,0 +1,64 @@
+{
+  "usableMethodNames": [
+    "CSS_SELECTOR",
+    "ID",
+    "CLASSNAME",
+    "LINK_TEXT",
+    "XPATH",
+    "ID_CONTAINS"
+  ],
+  "search_box": {
+    "CSS_SELECTOR": ".gLFyf"
+  },
+  "search_result_list": {
+    "CSS_SELECTOR": ".erkvQe"
+  },
+  "search_in_google": {
+    "CSS_SELECTOR": ".gNO89b"
+  },
+  "search_result": {
+    "ID": "search"
+  },
+  "camping": {
+    "XPATH": "//a[contains(text(),'Kampanyalar')]"
+  },
+  "switch_button": {
+    "CSS_SELECTOR": ".selectric"
+  },
+  "en": {
+    "XPATH": "//li[contains(text(),'EN')]"
+  },
+  "ru": {
+    "XPATH": "//li[contains(text(),'RU')]"
+  },
+  "az": {
+    "XPATH": "//li[contains(text(),'AZ')]"
+  },
+  "english": {
+    "XPATH": "//script[contains(.,'lang: \"en\"')]"
+  },
+  "russian": {
+    "XPATH": "//script[contains(.,'lang: \"ru\"')]"
+  },
+  "azerbaijani": {
+    "XPATH": "//script[contains(.,'lang: \"az\"')]"
+  },
+  "loan_amount_input": {
+    "ID": "js-range-slider-output-0"
+  },
+  "loan_term": {
+    "ID": "js-range-slider-output-01"
+  },
+  "interest_rate": {
+    "ID": "js-range-slider-output-02"
+  },
+  "online_apply": {
+    "CSS_SELECTOR": "[href*='/tecili-kredit-sifarisi']"
+  },
+  "mobile_phone": {
+    "CSS_SELECTOR": "[name='phone']"
+  },
+  "loan_apply_button": {
+    "CSS_SELECTOR": "button[type='submit']"
+  }
+}
