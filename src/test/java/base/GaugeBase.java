@@ -75,4 +75,8 @@ public class GaugeBase extends BasePage {
     public String getColor(String by, String colorCssKey) throws UndefinedEnum, NoSuchSelector {
         return getColor(foundActivity(by), colorCssKey);
     }
+
+    public void scrollToElement(String by) throws UndefinedEnum, NoSuchSelector {
+        scrollToElement(foundActivity(by));
+    }
 }

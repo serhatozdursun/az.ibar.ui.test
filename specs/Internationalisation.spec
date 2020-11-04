@@ -1,4 +1,5 @@
 # Feature Globalization
+Tags: regression
 
 Created by MehmetSerhatOzdursun on 02/11/2020
 

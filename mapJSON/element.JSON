@@ -60,5 +60,11 @@
   },
   "loan_apply_button": {
     "CSS_SELECTOR": "button[type='submit']"
+  },
+  "monthly_payment_amount": {
+    "ID": "monthly_payment"
+  },
+  "total_payment_amount": {
+    "ID": "total_payment"
   }
 }

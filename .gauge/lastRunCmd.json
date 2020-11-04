@@ -1,8 +1,8 @@
 [
-	"gauge",
+	"C:\\Program Files\\Gauge\\bin\\gauge.exe",
 	"run",
-	"--tags",
-	"case3",
-	"--dir=C:\\Users\\MehmetSerhatOzdursun\\IdeaProjects\\az.ibar\\az.ibar.ui.test",
-	"C:\\Users\\MehmetSerhatOzdursun\\IdeaProjects\\az.ibar\\az.ibar.ui.test\\specs"
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/Users/MehmetSerhatOzdursun/IdeaProjects/az.ibar.ui.test/specs/LoanApply.spec:6"
 ]

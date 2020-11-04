@@ -2361,3 +2361,476 @@
 03-11-2020 12:40:08.739 [Gauge] [DEBUG] Adding specs from C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
 03-11-2020 12:40:08.739 [Gauge] [INFO] Initializing steps cache with 2 steps
 03-11-2020 12:40:08.739 [Gauge] [INFO] Gauge daemon initialized and listening on port: 56941
+03-11-2020 19:03:52.725 [Gauge] [INFO] Watching directory: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs
+03-11-2020 19:03:52.725 [Gauge] [DEBUG] Found 2 files
+03-11-2020 19:03:52.728 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+03-11-2020 19:03:52.732 [Gauge] [INFO] Initializing specs cache with 2 specs
+03-11-2020 19:03:52.732 [Gauge] [DEBUG] Adding specs from C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+03-11-2020 19:03:52.732 [Gauge] [DEBUG] Adding specs from C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\Internationalisation.spec
+03-11-2020 19:03:52.732 [Gauge] [INFO] Initializing steps cache with 2 steps
+03-11-2020 19:03:52.732 [Gauge] [INFO] Gauge daemon initialized and listening on port: 50065
+03-11-2020 19:13:58.039 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to \"https://www.ibar.az\"" > 
+03-11-2020 19:13:58.040 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to {}" parameterizedStepValue:"Go to <https://www.ibar.az>" parameters:"https://www.ibar.az" > > 
+03-11-2020 19:13:58.147 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to <uri>" > 
+03-11-2020 19:13:58.147 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to {}" parameterizedStepValue:"Go to <uri>" parameters:"uri" > > 
+03-11-2020 19:13:58.151 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click language \"switch_button\"" > 
+03-11-2020 19:13:58.151 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click language {}" parameterizedStepValue:"Click language <switch_button>" parameters:"switch_button" > > 
+03-11-2020 19:13:58.153 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type <keys> in the <inputElement>" > 
+03-11-2020 19:13:58.153 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type {} in the {}" parameterizedStepValue:"Type <keys> in the <inputElement>" parameters:"keys" parameters:"inputElement" > > 
+03-11-2020 19:13:58.153 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Verify <element> is display on the page" > 
+03-11-2020 19:13:58.153 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Verify {} is display on the page" parameterizedStepValue:"Verify <element> is display on the page" parameters:"element" > > 
+03-11-2020 19:13:58.153 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click <elm>" > 
+03-11-2020 19:13:58.153 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <elm>" parameters:"elm" > > 
+03-11-2020 19:13:58.154 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click language <switch_button>" > 
+03-11-2020 19:13:58.154 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click language {}" parameterizedStepValue:"Click language <switch_button>" parameters:"switch_button" > > 
+03-11-2020 19:13:58.154 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click \"en\"" > 
+03-11-2020 19:13:58.154 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <en>" parameters:"en" > > 
+03-11-2020 19:13:58.155 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check the language of the page is \"English\"" > 
+03-11-2020 19:13:58.155 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check the language of the page is {}" parameterizedStepValue:"Check the language of the page is <English>" parameters:"English" > > 
+03-11-2020 19:13:58.156 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check the language of the page is <language>" > 
+03-11-2020 19:13:58.156 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check the language of the page is {}" parameterizedStepValue:"Check the language of the page is <language>" parameters:"language" > > 
+03-11-2020 19:13:58.157 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click \"ru\"" > 
+03-11-2020 19:13:58.157 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <ru>" parameters:"ru" > > 
+03-11-2020 19:13:58.157 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check the language of the page is \"Russian\"" > 
+03-11-2020 19:13:58.157 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check the language of the page is {}" parameterizedStepValue:"Check the language of the page is <Russian>" parameters:"Russian" > > 
+03-11-2020 19:13:58.158 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click \"az\"" > 
+03-11-2020 19:13:58.158 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <az>" parameters:"az" > > 
+03-11-2020 19:13:58.158 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check the language of the page is \"Azerbaijani\"" > 
+03-11-2020 19:13:58.158 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check the language of the page is {}" parameterizedStepValue:"Check the language of the page is <Azerbaijani>" parameters:"Azerbaijani" > > 
+03-11-2020 19:14:00.417 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\Internationalisation.spec
+03-11-2020 19:14:00.418 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\Internationalisation.spec
+03-11-2020 19:14:03.190 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\Internationalisation.spec
+03-11-2020 19:14:03.194 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\Internationalisation.spec
+03-11-2020 19:14:20.816 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type \"7500\" in the \"loan_amount_input\"" > 
+03-11-2020 19:14:20.816 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type {} in the {}" parameterizedStepValue:"Type <7500> in the <loan_amount_input>" parameters:"7500" parameters:"loan_amount_input" > > 
+03-11-2020 19:14:20.849 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type \"6\" in the \"loan_term\"" > 
+03-11-2020 19:14:20.849 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type {} in the {}" parameterizedStepValue:"Type <6> in the <loan_term>" parameters:"6" parameters:"loan_term" > > 
+03-11-2020 19:14:20.849 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type \"20\" in the \"interest_rate\"" > 
+03-11-2020 19:14:20.850 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type {} in the {}" parameterizedStepValue:"Type <20> in the <interest_rate>" parameters:"20" parameters:"interest_rate" > > 
+03-11-2020 19:14:20.850 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click the \"online_apply\" for credit button" > 
+03-11-2020 19:14:20.850 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click the {} for credit button" parameterizedStepValue:"Click the <online_apply> for credit button" parameters:"online_apply" > > 
+03-11-2020 19:14:20.851 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Checks if the <page> page is loaded" > 
+03-11-2020 19:14:20.851 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Checks if the {} page is loaded" parameterizedStepValue:"Checks if the <page> page is loaded" parameters:"page" > > 
+03-11-2020 19:14:20.851 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click the <online_apply> for credit button" > 
+03-11-2020 19:14:20.851 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click the {} for credit button" parameterizedStepValue:"Click the <online_apply> for credit button" parameters:"online_apply" > > 
+03-11-2020 19:14:20.852 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Checks if the \"tecili-kredit-sifarisi\" page is loaded" > 
+03-11-2020 19:14:20.852 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Checks if the {} page is loaded" parameterizedStepValue:"Checks if the <tecili-kredit-sifarisi> page is loaded" parameters:"tecili-kredit-sifarisi" > > 
+03-11-2020 19:14:20.856 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click \"loan_apply_button\"" > 
+03-11-2020 19:14:20.856 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <loan_apply_button>" parameters:"loan_apply_button" > > 
+03-11-2020 19:14:20.856 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Checking if a validation error message is displayed in the \"mobile_phone\" field" > 
+03-11-2020 19:14:20.856 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Checking if a validation error message is displayed in the {} field" parameterizedStepValue:"Checking if a validation error message is displayed in the <mobile_phone> field" parameters:"mobile_phone" > > 
+03-11-2020 19:14:20.857 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Checking if a validation error message is displayed in the <elm> field" > 
+03-11-2020 19:14:20.857 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Checking if a validation error message is displayed in the {} field" parameterizedStepValue:"Checking if a validation error message is displayed in the <elm> field" parameters:"elm" > > 
+03-11-2020 19:14:31.949 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\Internationalisation.spec
+03-11-2020 19:14:31.950 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\Internationalisation.spec
+03-11-2020 19:14:31.955 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+03-11-2020 19:14:31.961 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:03:13.286 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:03:13.286 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:03:13.421 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:03:13.421 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:03:13.423 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:03:13.423 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:03:13.916 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"ayl\304\261k ve toplam \303\266deme tutarlar\304\261 al\304\261n\304\261yor" > 
+04-11-2020 09:03:13.916 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"ayl\304\261k ve toplam \303\266deme tutarlar\304\261 al\304\261n\304\261yor" parameterizedStepValue:"ayl\304\261k ve toplam \303\266deme tutarlar\304\261 al\304\261n\304\261yor" > > 
+04-11-2020 09:03:20.803 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:03:20.803 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:03:20.935 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:03:20.935 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:03:21.327 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"monthly and total payment amounts are received" > 
+04-11-2020 09:03:21.327 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"monthly and total payment amounts are received" parameterizedStepValue:"monthly and total payment amounts are received" > > 
+04-11-2020 09:03:25.564 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"> and total payment amounts are received" > 
+04-11-2020 09:03:25.564 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"> and total payment amounts are received" parameterizedStepValue:"> and total payment amounts are received" > > 
+04-11-2020 09:03:26.688 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"< and total payment amounts are received" > 
+04-11-2020 09:03:26.688 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+04-11-2020 09:03:26.813 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"< and total payment amounts are received" > 
+04-11-2020 09:03:26.813 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+04-11-2020 09:03:26.815 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"< and total payment amounts are received" > 
+04-11-2020 09:03:26.815 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+04-11-2020 09:03:30.468 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<monthly and total payment amounts are received" > 
+04-11-2020 09:03:30.468 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+04-11-2020 09:03:30.589 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<monthly and total payment amounts are received" > 
+04-11-2020 09:03:30.589 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+04-11-2020 09:03:30.590 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<monthly and total payment amounts are received" > 
+04-11-2020 09:03:30.590 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+04-11-2020 09:03:33.962 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<monthly> and total payment amounts are received" > 
+04-11-2020 09:03:33.962 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} and total payment amounts are received" parameterizedStepValue:"<monthly> and total payment amounts are received" parameters:"monthly" > > 
+04-11-2020 09:03:36.079 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<monthly> and <total payment amounts are received" > 
+04-11-2020 09:03:36.079 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+04-11-2020 09:03:36.209 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<monthly> and <total payment amounts are received" > 
+04-11-2020 09:03:36.209 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+04-11-2020 09:03:36.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<monthly> and <total payment amounts are received" > 
+04-11-2020 09:03:36.211 [Gauge] [DEBUG] Sending API response: messageType:ErrorResponse messageId:4 error:<error:"Dynamic parameter not terminated" > 
+04-11-2020 09:03:38.647 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"<monthly> and <total> payment amounts are received" > 
+04-11-2020 09:03:38.647 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} and {} payment amounts are received" parameterizedStepValue:"<monthly> and <total> payment amounts are received" parameters:"monthly" parameters:"total" > > 
+04-11-2020 09:20:03.548 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:20:03.550 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:20:03.555 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:20:04.463 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.464 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:04.468 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.468 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:04.470 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.470 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:04.487 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.487 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:04.488 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.488 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:04.531 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.531 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:04.532 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.532 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:04.556 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.557 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:04.557 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.557 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:04.570 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.570 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:04.571 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.571 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:04.581 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.581 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:04.582 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:04.582 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.275 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.276 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.286 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.286 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.309 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.309 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.322 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.322 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.323 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.323 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.333 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.333 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.333 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.333 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.351 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.351 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.351 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.351 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.370 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.370 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.370 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.370 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.389 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.389 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.389 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.389 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.404 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.404 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:05.404 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:05.404 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:06.624 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+04-11-2020 09:20:06.627 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Check the language of the page is {}" parameterizedStepValue:"Check the language of the page is <Azerbaijani>" parameters:"Azerbaijani" > allSteps:<stepValue:"Type {} in the {}" parameterizedStepValue:"Type <20> in the <interest_rate>" parameters:"20" parameters:"interest_rate" > allSteps:<stepValue:"Click the {} for credit button" parameterizedStepValue:"Click the <online_apply> for credit button" parameters:"online_apply" > allSteps:<stepValue:"Checks if the {} page is loaded" parameterizedStepValue:"Checks if the <tecili-kredit-sifarisi> page is loaded" parameters:"tecili-kredit-sifarisi" > allSteps:<stepValue:"Checking if a validation error message is displayed in the {} field" parameterizedStepValue:"Checking if a validation error message is displayed in the <mobile_phone> field" parameters:"mobile_phone" > allSteps:<stepValue:"Go to {}" parameterizedStepValue:"Go to <https://www.ibar.az>" parameters:"https://www.ibar.az" > allSteps:<stepValue:"Click language {}" parameterizedStepValue:"Click language <switch_button>" parameters:"switch_button" > allSteps:<stepValue:"Click {}" parameterizedStepValue:"Click <loan_apply_button>" parameters:"loan_apply_button" > > 
+04-11-2020 09:20:06.628 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+04-11-2020 09:20:06.628 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+04-11-2020 09:20:54.222 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:20:54.226 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:20:54.806 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"> and <total> payment amounts are received" > 
+04-11-2020 09:20:54.812 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"> and {} payment amounts are received" parameterizedStepValue:"> and <total> payment amounts are received" parameters:"total" > > 
+04-11-2020 09:20:55.386 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"and <total> payment amounts are received" > 
+04-11-2020 09:20:55.386 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"and {} payment amounts are received" parameterizedStepValue:"and <total> payment amounts are received" parameters:"total" > > 
+04-11-2020 09:20:56.119 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"\" and <total> payment amounts are received" > 
+04-11-2020 09:20:56.119 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} and {} payment amounts are received" parameterizedStepValue:"<> and <total> payment amounts are received" parameters:"" parameters:"total" > > 
+04-11-2020 09:20:56.934 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"monthly_payment_amount\" and <total> payment amounts are received" > 
+04-11-2020 09:20:56.935 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} and {} payment amounts are received" parameterizedStepValue:"<monthly_payment_amount> and <total> payment amounts are received" parameters:"monthly_payment_amount" parameters:"total" > > 
+04-11-2020 09:21:24.806 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"monthly_payment_amount\" and > payment amounts are received" > 
+04-11-2020 09:21:24.806 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} and > payment amounts are received" parameterizedStepValue:"<monthly_payment_amount> and > payment amounts are received" parameters:"monthly_payment_amount" > > 
+04-11-2020 09:21:25.914 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"monthly_payment_amount\" and \"\" payment amounts are received" > 
+04-11-2020 09:21:25.915 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} and {} payment amounts are received" parameterizedStepValue:"<monthly_payment_amount> and <> payment amounts are received" parameters:"monthly_payment_amount" parameters:"" > > 
+04-11-2020 09:21:26.961 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"\"monthly_payment_amount\" and \"total_payment_amount\" payment amounts are received" > 
+04-11-2020 09:21:26.962 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"{} and {} payment amounts are received" parameterizedStepValue:"<monthly_payment_amount> and <total_payment_amount> payment amounts are received" parameters:"monthly_payment_amount" parameters:"total_payment_amount" > > 
+04-11-2020 09:21:40.428 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:21:40.449 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:27:10.137 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The <monthly> and <total> payment amounts are received" > 
+04-11-2020 09:27:10.137 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} and {} payment amounts are received" parameterizedStepValue:"The <monthly> and <total> payment amounts are received" parameters:"monthly" parameters:"total" > > 
+04-11-2020 09:27:14.582 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+04-11-2020 09:27:14.592 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Click the {} for credit button" parameterizedStepValue:"Click the <online_apply> for credit button" parameters:"online_apply" > allSteps:<stepValue:"Click language {}" parameterizedStepValue:"Click language <switch_button>" parameters:"switch_button" > allSteps:<stepValue:"Check the language of the page is {}" parameterizedStepValue:"Check the language of the page is <Azerbaijani>" parameters:"Azerbaijani" > allSteps:<stepValue:"Go to {}" parameterizedStepValue:"Go to <https://www.ibar.az>" parameters:"https://www.ibar.az" > allSteps:<stepValue:"{} and {} payment amounts are received" parameterizedStepValue:"<monthly_payment_amount> and <total_payment_amount> payment amounts are received" parameters:"monthly_payment_amount" parameters:"total_payment_amount" > allSteps:<stepValue:"Type {} in the {}" parameterizedStepValue:"Type <20> in the <interest_rate>" parameters:"20" parameters:"interest_rate" > allSteps:<stepValue:"Checks if the {} page is loaded" parameterizedStepValue:"Checks if the <tecili-kredit-sifarisi> page is loaded" parameters:"tecili-kredit-sifarisi" > allSteps:<stepValue:"Click {}" parameterizedStepValue:"Click <az>" parameters:"az" > allSteps:<stepValue:"Checking if a validation error message is displayed in the {} field" parameterizedStepValue:"Checking if a validation error message is displayed in the <mobile_phone> field" parameters:"mobile_phone" > > 
+04-11-2020 09:27:14.593 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+04-11-2020 09:27:14.593 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+04-11-2020 09:27:15.461 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The \"monthly_payment_amount\" and \"total_payment_amount\" payment amounts are received" > 
+04-11-2020 09:27:15.461 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} and {} payment amounts are received" parameterizedStepValue:"The <monthly_payment_amount> and <total_payment_amount> payment amounts are received" parameters:"monthly_payment_amount" parameters:"total_payment_amount" > > 
+04-11-2020 09:28:02.834 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The <monthly> and <total> payment amounts received and the amounts on the page are compared" > 
+04-11-2020 09:28:02.834 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} and {} payment amounts received and the amounts on the page are compared" parameterizedStepValue:"The <monthly> and <total> payment amounts received and the amounts on the page are compared" parameters:"monthly" parameters:"total" > > 
+04-11-2020 09:33:44.788 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:33:44.805 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:35:16.512 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:35:16.514 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:35:17.483 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.484 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:17.493 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.493 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:17.513 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.513 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:17.532 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.532 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:17.532 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.532 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:17.544 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.544 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:17.544 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.544 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:17.563 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.563 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:17.563 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.563 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:17.578 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.578 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:17.579 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.579 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:17.595 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.595 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:17.595 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:17.595 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.200 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.200 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.209 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.210 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.235 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.235 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.252 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.252 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.253 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.253 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.262 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.262 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.262 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.262 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.283 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.283 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.283 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.283 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.297 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.297 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.297 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.297 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.311 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.311 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.312 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.312 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.328 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.329 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.329 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:18.329 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:18.792 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+04-11-2020 09:35:18.792 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"Type {} in the {}" parameterizedStepValue:"Type <20> in the <interest_rate>" parameters:"20" parameters:"interest_rate" > allSteps:<stepValue:"Click the {} for credit button" parameterizedStepValue:"Click the <online_apply> for credit button" parameters:"online_apply" > allSteps:<stepValue:"Checks if the {} page is loaded" parameterizedStepValue:"Checks if the <tecili-kredit-sifarisi> page is loaded" parameters:"tecili-kredit-sifarisi" > allSteps:<stepValue:"Click language {}" parameterizedStepValue:"Click language <switch_button>" parameters:"switch_button" > allSteps:<stepValue:"Check the language of the page is {}" parameterizedStepValue:"Check the language of the page is <Azerbaijani>" parameters:"Azerbaijani" > allSteps:<stepValue:"Go to {}" parameterizedStepValue:"Go to <https://www.ibar.az>" parameters:"https://www.ibar.az" > allSteps:<stepValue:"Click {}" parameterizedStepValue:"Click <az>" parameters:"az" > allSteps:<stepValue:"Checking if a validation error message is displayed in the {} field" parameterizedStepValue:"Checking if a validation error message is displayed in the <mobile_phone> field" parameters:"mobile_phone" > allSteps:<stepValue:"The {} and {} payment amounts are received" parameterizedStepValue:"The <monthly_payment_amount> and <total_payment_amount> payment amounts are received" parameters:"monthly_payment_amount" parameters:"total_payment_amount" > > 
+04-11-2020 09:35:18.794 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+04-11-2020 09:35:18.794 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+04-11-2020 09:35:20.172 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.172 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.177 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.178 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.209 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.210 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.233 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.233 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.233 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.233 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.246 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.246 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.246 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.246 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.266 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.267 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.267 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.267 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.284 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.284 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.284 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.284 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.304 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.304 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.305 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.305 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.320 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.320 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.321 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:20.321 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:20.728 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest messageId:2 allStepsRequest:<> 
+04-11-2020 09:35:20.730 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse messageId:2 allStepsResponse:<allSteps:<stepValue:"The {} and {} payment amounts are received" parameterizedStepValue:"The <monthly_payment_amount> and <total_payment_amount> payment amounts are received" parameters:"monthly_payment_amount" parameters:"total_payment_amount" > allSteps:<stepValue:"Checking if a validation error message is displayed in the {} field" parameterizedStepValue:"Checking if a validation error message is displayed in the <mobile_phone> field" parameters:"mobile_phone" > allSteps:<stepValue:"Check the language of the page is {}" parameterizedStepValue:"Check the language of the page is <Azerbaijani>" parameters:"Azerbaijani" > allSteps:<stepValue:"Go to {}" parameterizedStepValue:"Go to <https://www.ibar.az>" parameters:"https://www.ibar.az" > allSteps:<stepValue:"Type {} in the {}" parameterizedStepValue:"Type <20> in the <interest_rate>" parameters:"20" parameters:"interest_rate" > allSteps:<stepValue:"Click the {} for credit button" parameterizedStepValue:"Click the <online_apply> for credit button" parameters:"online_apply" > allSteps:<stepValue:"Checks if the {} page is loaded" parameterizedStepValue:"Checks if the <tecili-kredit-sifarisi> page is loaded" parameters:"tecili-kredit-sifarisi" > allSteps:<stepValue:"Click {}" parameterizedStepValue:"Click <az>" parameters:"az" > allSteps:<stepValue:"Click language {}" parameterizedStepValue:"Click language <switch_button>" parameters:"switch_button" > > 
+04-11-2020 09:35:20.732 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest messageId:6 allConceptsRequest:<> 
+04-11-2020 09:35:20.732 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse messageId:6 allConceptsResponse:<> 
+04-11-2020 09:35:27.183 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The \"monthly\" and \"total\" payment amounts received and the amounts on the page are compared" > 
+04-11-2020 09:35:27.186 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} and {} payment amounts received and the amounts on the page are compared" parameterizedStepValue:"The <monthly> and <total> payment amounts received and the amounts on the page are compared" parameters:"monthly" parameters:"total" > > 
+04-11-2020 09:35:33.937 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:35:33.939 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:35:35.156 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.156 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:35.167 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.167 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:35.195 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.195 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:35.209 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.209 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:35.210 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.210 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:35.229 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.229 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:35.229 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.229 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:35.242 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.243 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:35.243 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.243 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:35.257 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.257 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:35.258 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.258 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:35.273 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.274 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:35.274 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:35.274 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:39.680 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:35:39.687 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:35:41.187 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.187 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.197 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.198 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.216 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.216 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.229 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.229 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.230 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.230 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.240 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.240 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.241 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.241 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.262 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.262 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.263 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.263 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.276 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.276 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.276 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.276 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.288 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.288 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.288 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:41.288 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:41.950 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"* The \"monthly\" and \"total\" payment amounts received and the amounts on the page are compared" > 
+04-11-2020 09:35:41.951 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"* The {} and {} payment amounts received and the amounts on the page are compared" parameterizedStepValue:"* The <monthly> and <total> payment amounts received and the amounts on the page are compared" parameters:"monthly" parameters:"total" > > 
+04-11-2020 09:35:43.586 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.586 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.592 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.593 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.612 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.612 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.622 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.622 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.623 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.623 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.633 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.633 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.633 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.633 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.645 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.646 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.646 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.646 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.664 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.664 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.664 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.664 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.677 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.677 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.678 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.678 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.691 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.691 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:43.691 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+04-11-2020 09:35:43.691 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+04-11-2020 09:35:52.545 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 09:35:52.546 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 10:02:12.763 [Gauge] [INFO] Closing connection [127.0.0.1:50066] cause: read tcp 127.0.0.1:50065->127.0.0.1:50066: wsarecv: An existing connection was forcibly closed by the remote host.
+04-11-2020 10:02:12.913 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 10656 has terminated.
+04-11-2020 10:02:29.695 [Gauge] [INFO] Watching directory: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs
+04-11-2020 10:02:29.695 [Gauge] [DEBUG] Found 2 files
+04-11-2020 10:02:29.702 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-11-2020 10:02:29.703 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\Internationalisation.spec
+04-11-2020 10:04:00.358 [Gauge] [INFO] Watching directory: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs
+04-11-2020 10:04:00.358 [Gauge] [DEBUG] Found 2 files
+04-11-2020 10:04:00.363 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+04-11-2020 10:04:00.364 [Gauge] [INFO] Initializing specs cache with 2 specs
+04-11-2020 10:04:00.364 [Gauge] [DEBUG] Adding specs from C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\Internationalisation.spec
+04-11-2020 10:04:00.364 [Gauge] [DEBUG] Adding specs from C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 10:04:00.364 [Gauge] [INFO] Initializing steps cache with 2 steps
+04-11-2020 10:04:00.364 [Gauge] [INFO] Gauge daemon initialized and listening on port: 50069
+04-11-2020 10:04:35.849 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to <uri>" > 
+04-11-2020 10:04:35.853 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to {}" parameterizedStepValue:"Go to <uri>" parameters:"uri" > > 
+04-11-2020 10:04:35.918 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type <keys> in the <inputElement>" > 
+04-11-2020 10:04:35.930 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type {} in the {}" parameterizedStepValue:"Type <keys> in the <inputElement>" parameters:"keys" parameters:"inputElement" > > 
+04-11-2020 10:04:35.978 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Verify <element> is display on the page" > 
+04-11-2020 10:04:35.981 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Verify {} is display on the page" parameterizedStepValue:"Verify <element> is display on the page" parameters:"element" > > 
+04-11-2020 10:04:35.998 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click <elm>" > 
+04-11-2020 10:04:36.013 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <elm>" parameters:"elm" > > 
+04-11-2020 10:04:36.081 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click language <switch_button>" > 
+04-11-2020 10:04:36.082 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click language {}" parameterizedStepValue:"Click language <switch_button>" parameters:"switch_button" > > 
+04-11-2020 10:04:36.173 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check the language of the page is <language>" > 
+04-11-2020 10:04:36.173 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check the language of the page is {}" parameterizedStepValue:"Check the language of the page is <language>" parameters:"language" > > 
+04-11-2020 10:04:36.524 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Checks if the <page> page is loaded" > 
+04-11-2020 10:04:36.524 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Checks if the {} page is loaded" parameterizedStepValue:"Checks if the <page> page is loaded" parameters:"page" > > 
+04-11-2020 10:04:36.595 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click the <online_apply> for credit button" > 
+04-11-2020 10:04:36.596 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click the {} for credit button" parameterizedStepValue:"Click the <online_apply> for credit button" parameters:"online_apply" > > 
+04-11-2020 10:04:36.872 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Checking if a validation error message is displayed in the <elm> field" > 
+04-11-2020 10:04:36.872 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Checking if a validation error message is displayed in the {} field" parameterizedStepValue:"Checking if a validation error message is displayed in the <elm> field" parameters:"elm" > > 
+04-11-2020 10:04:37.028 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The <monthly> and <total> payment amounts are received" > 
+04-11-2020 10:04:37.029 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} and {} payment amounts are received" parameterizedStepValue:"The <monthly> and <total> payment amounts are received" parameters:"monthly" parameters:"total" > > 
+04-11-2020 10:04:37.157 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The <monthly> and <total> payment amounts received and the amounts on the page are compared" > 
+04-11-2020 10:04:37.157 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} and {} payment amounts received and the amounts on the page are compared" parameterizedStepValue:"The <monthly> and <total> payment amounts received and the amounts on the page are compared" parameters:"monthly" parameters:"total" > > 
+04-11-2020 10:04:37.604 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Checks if the \"tecili-kredit-sifarisi\" page is loaded" > 
+04-11-2020 10:04:37.604 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Checks if the {} page is loaded" parameterizedStepValue:"Checks if the <tecili-kredit-sifarisi> page is loaded" parameters:"tecili-kredit-sifarisi" > > 
+04-11-2020 10:04:37.605 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type \"7500\" in the \"loan_amount_input\"" > 
+04-11-2020 10:04:37.605 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type {} in the {}" parameterizedStepValue:"Type <7500> in the <loan_amount_input>" parameters:"7500" parameters:"loan_amount_input" > > 
+04-11-2020 10:04:37.605 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click the \"online_apply\" for credit button" > 
+04-11-2020 10:04:37.605 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click the {} for credit button" parameterizedStepValue:"Click the <online_apply> for credit button" parameters:"online_apply" > > 
+04-11-2020 10:04:37.605 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to \"https://www.ibar.az\"" > 
+04-11-2020 10:04:37.605 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to {}" parameterizedStepValue:"Go to <https://www.ibar.az>" parameters:"https://www.ibar.az" > > 
+04-11-2020 10:04:37.606 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type \"20\" in the \"interest_rate\"" > 
+04-11-2020 10:04:37.606 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type {} in the {}" parameterizedStepValue:"Type <20> in the <interest_rate>" parameters:"20" parameters:"interest_rate" > > 
+04-11-2020 10:04:37.606 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The \"monthly_payment_amount\" and \"total_payment_amount\" payment amounts are received" > 
+04-11-2020 10:04:37.606 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} and {} payment amounts are received" parameterizedStepValue:"The <monthly_payment_amount> and <total_payment_amount> payment amounts are received" parameters:"monthly_payment_amount" parameters:"total_payment_amount" > > 
+04-11-2020 10:04:37.606 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The \"monthly\" and \"total\" payment amounts received and the amounts on the page are compared" > 
+04-11-2020 10:04:37.607 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} and {} payment amounts received and the amounts on the page are compared" parameterizedStepValue:"The <monthly> and <total> payment amounts received and the amounts on the page are compared" parameters:"monthly" parameters:"total" > > 
+04-11-2020 10:04:37.607 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Type \"6\" in the \"loan_term\"" > 
+04-11-2020 10:04:37.607 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Type {} in the {}" parameterizedStepValue:"Type <6> in the <loan_term>" parameters:"6" parameters:"loan_term" > > 
+04-11-2020 10:04:37.607 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Checking if a validation error message is displayed in the \"mobile_phone\" field" > 
+04-11-2020 10:04:37.607 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Checking if a validation error message is displayed in the {} field" parameterizedStepValue:"Checking if a validation error message is displayed in the <mobile_phone> field" parameters:"mobile_phone" > > 
+04-11-2020 10:04:37.610 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click language \"switch_button\"" > 
+04-11-2020 10:04:37.610 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click language {}" parameterizedStepValue:"Click language <switch_button>" parameters:"switch_button" > > 
+04-11-2020 10:04:37.610 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check the language of the page is \"Azerbaijani\"" > 
+04-11-2020 10:04:37.610 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check the language of the page is {}" parameterizedStepValue:"Check the language of the page is <Azerbaijani>" parameters:"Azerbaijani" > > 
+04-11-2020 10:04:37.611 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check the language of the page is \"Russian\"" > 
+04-11-2020 10:04:37.611 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check the language of the page is {}" parameterizedStepValue:"Check the language of the page is <Russian>" parameters:"Russian" > > 
+04-11-2020 10:04:37.611 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Check the language of the page is \"English\"" > 
+04-11-2020 10:04:37.611 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Check the language of the page is {}" parameterizedStepValue:"Check the language of the page is <English>" parameters:"English" > > 
+04-11-2020 10:19:34.520 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click \"loan_apply_button\"" > 
+04-11-2020 10:19:34.520 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <loan_apply_button>" parameters:"loan_apply_button" > > 
+04-11-2020 10:26:21.315 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The \"monthly_payment_amount\" and \"total\" payment amounts received and the amounts on the page are compared" > 
+04-11-2020 10:26:21.315 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} and {} payment amounts received and the amounts on the page are compared" parameterizedStepValue:"The <monthly_payment_amount> and <total> payment amounts received and the amounts on the page are compared" parameters:"monthly_payment_amount" parameters:"total" > > 
+04-11-2020 10:26:24.671 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The \"monthly_payment_amount\" and \"total_payment_amount\" payment amounts received and the amounts on the page are compared" > 
+04-11-2020 10:26:24.672 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} and {} payment amounts received and the amounts on the page are compared" parameterizedStepValue:"The <monthly_payment_amount> and <total_payment_amount> payment amounts received and the amounts on the page are compared" parameters:"monthly_payment_amount" parameters:"total_payment_amount" > > 
+04-11-2020 10:26:26.631 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The \"monthly\" and \"total_payment_amount\" payment amounts received and the amounts on the page are compared" > 
+04-11-2020 10:26:26.631 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} and {} payment amounts received and the amounts on the page are compared" parameterizedStepValue:"The <monthly> and <total_payment_amount> payment amounts received and the amounts on the page are compared" parameters:"monthly" parameters:"total_payment_amount" > > 
+04-11-2020 10:26:41.218 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 10:26:41.220 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 10:33:06.281 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 10:33:06.287 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 10:51:58.743 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\Internationalisation.spec
+04-11-2020 10:51:58.750 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 10:56:13.489 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The \"monthly_payment_amount\"  \"total_payment_amount\" payment amounts received and the amounts on the page are compared" > 
+04-11-2020 10:56:13.489 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {}  {} payment amounts received and the amounts on the page are compared" parameterizedStepValue:"The <monthly_payment_amount>  <total_payment_amount> payment amounts received and the amounts on the page are compared" parameters:"monthly_payment_amount" parameters:"total_payment_amount" > > 
+04-11-2020 10:56:14.427 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The \"monthly_payment_amount\" , \"total_payment_amount\" payment amounts received and the amounts on the page are compared" > 
+04-11-2020 10:56:14.427 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} , {} payment amounts received and the amounts on the page are compared" parameterizedStepValue:"The <monthly_payment_amount> , <total_payment_amount> payment amounts received and the amounts on the page are compared" parameters:"monthly_payment_amount" parameters:"total_payment_amount" > > 
+04-11-2020 10:56:22.720 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The <monthly> , <total> payment amounts received and the amounts on the page are compared" > 
+04-11-2020 10:56:22.720 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The {} , {} payment amounts received and the amounts on the page are compared" parameterizedStepValue:"The <monthly> , <total> payment amounts received and the amounts on the page are compared" parameters:"monthly" parameters:"total" > > 
+04-11-2020 10:57:08.697 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 10:57:08.700 [Gauge] [INFO] Spec file added / modified: C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\LoanApply.spec
+04-11-2020 10:57:43.662 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click \"en\"" > 
+04-11-2020 10:57:43.662 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <en>" parameters:"en" > > 
+04-11-2020 10:57:43.663 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click \"ru\"" > 
+04-11-2020 10:57:43.663 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <ru>" parameters:"ru" > > 
+04-11-2020 10:57:43.663 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Click \"az\"" > 
+04-11-2020 10:57:43.663 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Click {}" parameterizedStepValue:"Click <az>" parameters:"az" > > 

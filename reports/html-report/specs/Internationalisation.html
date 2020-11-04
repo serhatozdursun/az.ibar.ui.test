@@ -31,13 +31,13 @@
    
   <div class="report_chart">
     <div class="chart">
-      <svg id="pie-chart" data-results="1,0,0" data-total="1">
+      <svg id="pie-chart" data-results="2,0,0" data-total="2">
         <path class="status failed" />
-        <path class="shadow failed" data-status="failed"><title>Failed: 1/1</title></path>
+        <path class="shadow failed" data-status="failed"><title>Failed: 2/2</title></path>
         <path class="status passed" />
-        <path class="shadow passed" data-status="passed"><title>Passed: 0/1</title></path>
+        <path class="shadow passed" data-status="passed"><title>Passed: 0/2</title></path>
         <path class="status skipped" />
-        <path class="shadow skipped" data-status="skipped"><title>Skipped: 0/1</title></path>
+        <path class="shadow skipped" data-status="skipped"><title>Skipped: 0/2</title></path>
       </svg>
     </div>
   </div>
@@ -45,14 +45,14 @@
    
   <div class="report_test-results">
     <div class="report_test-result specs">
-        <div class="total-specs" title="Filter all specs"><span class="txt">Total specs</span><span class="value">1</span></div>
-        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">1</span></div>
+        <div class="total-specs" title="Filter all specs"><span class="txt">Total specs</span><span class="value">2</span></div>
+        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">2</span></div>
         <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">0</span></div>
         <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">0</span></div>
     </div>
     <div class="report_test-result scenarios">
-        <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">1</span></div>
-        <div class="fail scenario-stats" data-status="failed"><span class="value">1</span></div>
+        <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">3</span></div>
+        <div class="fail scenario-stats" data-status="failed"><span class="value">3</span></div>
         <div class="pass scenario-stats" data-status="passed"><span class="value">0</span></div>
         <div class="skip scenario-stats" data-status="skipped"><span class="value">0</span></div>
     </div>
@@ -68,7 +68,7 @@
     
     <li>
       <label>Tags </label>
-      <span>case1</span>
+      <span>regression</span>
     </li>
     
     <li>
@@ -77,11 +77,11 @@
     </li>
     <li>
       <label>Total Time </label>
-      <span>00:00:22</span>
+      <span>00:01:04</span>
     </li>
     <li>
       <label>Generated On </label>
-      <span>Nov 3, 2020 at 11:59am</span>
+      <span>Nov 3, 2020 at 7:14pm</span>
     </li>
   </ul>
 
@@ -127,6 +127,15 @@
             </li>
           </a>
           
+          <a href="LoanApply.html">
+            
+              <li class="failed spec-name">
+            
+              <span id="scenarioName" class="scenarioname">Feature Credit Application</span>
+              <span id="time" class="time">00:00:41</span>
+            </li>
+          </a>
+          
         </ul>
       </div>
     </aside>
@@ -138,7 +147,7 @@
   <div id="specificationContainer" class="details">
     <header class="curr-spec">
       <div class="spec-head-wrapper">
-        <h3 class="spec-head" title="C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar\az.ibar.ui.test\specs\Internationalisation.spec">Feature Globalization</h3>
+        <h3 class="spec-head" title="C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\Internationalisation.spec">Feature Globalization</h3>
         <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
           <ul>
             <li class="fail"><span class="value">1</span><span class="txt">Failed</span></li>
@@ -150,7 +159,7 @@
       <div class="spec-meta">
         <div class="spec-filename">
           <label for="specFileName">File Path</label>
-          <input id="specFileName" value="C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar\az.ibar.ui.test\specs\Internationalisation.spec" readonly/>
+          <input id="specFileName" value="C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test\specs\Internationalisation.spec" readonly/>
           <button class="clipboard-btn" data-clipboard-target="#specFileName" title="Copy to Clipboard">
               <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
           </button>
@@ -159,6 +168,13 @@
       </div>
 
 	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> regression</span>
+      
+    </div>
   
 
 	</header>
@@ -338,15 +354,15 @@ Russian, by clicking on the the “AZ”, “EN” and “RN” language links a
     <div class="exception-container">
       <div class="exception">
         <h4 class="error-message">
-          <pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of any elements located by By.cssSelector: .selectric (tried for 15 second(s) with 500 milliseconds interval)<br/>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br/>System info: host: &#39;MSO_PC&#39;, ip: &#39;192.168.100.14&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;14.0.1&#39;<br/>Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\MEHMET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br/>Session ID: 3d05eeefc328a46e0b76bf69081fbbc0</pre>
+          <pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of any elements located by By.cssSelector: .selectric (tried for 15 second(s) with 500 milliseconds interval)<br/>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br/>System info: host: &#39;MSO_PC&#39;, ip: &#39;192.168.100.11&#39;, os.name: &#39;Windows 10&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;14.0.1&#39;<br/>Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\MEHMET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50329}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br/>Session ID: 63274da263bf995dc8e7b13c8e09de3f</pre>
         </h4>
         <pre class="stacktrace">org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)<br/>org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)<br/>base.BasePageUtil.waitForElements(BasePageUtil.java:27)<br/>base.BasePageUtil.clickElement(BasePageUtil.java:70)<br/>base.GaugeBase.clickElementsWithIndex(GaugeBase.java:51)<br/>tests.StepImplementation.clickLanguageSwitchButton(StepImplementation.java:54)<br/>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>java.base/java.lang.reflect.Method.invoke(Method.java:564)<br/>com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:28)<br/>com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66)<br/>com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59)<br/>com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41)<br/>com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14)<br/>com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33)<br/>com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19)<br/>com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:41)<br/>com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166)<br/>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)<br/>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)<br/>java.base/java.lang.Thread.run(Thread.java:832)<br/></pre>
       </div>
       
         <div class="screenshot-container">
           <div class="screenshot">
-            <a href="../images/screenshot-cb84e873-9edc-4eb4-b162-44028162b6a9.png" rel="lightbox">
-              <img src="../images/screenshot-cb84e873-9edc-4eb4-b162-44028162b6a9.png" class="screenshot-thumbnail" />
+            <a href="../images/screenshot-33b2778d-c3b7-4e71-9282-5cb157ab3cf0.png" rel="lightbox">
+              <img src="../images/screenshot-33b2778d-c3b7-4e71-9282-5cb157ab3cf0.png" class="screenshot-thumbnail" />
             </a>
           </div>
         </div>

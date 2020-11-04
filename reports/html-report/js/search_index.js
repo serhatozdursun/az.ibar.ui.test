@@ -1,1 +1,1 @@
-var index = {"Tags":{"case3":["specs/LoanApply.html"]},"Specs":{"Feature Credit Application":["specs/LoanApply.html"]}};
+var index = {"Tags":{"case2":["specs/LoanApply.html"],"regression":["specs/LoanApply.html"]},"Specs":{"Feature Credit Application":["specs/LoanApply.html"]}};

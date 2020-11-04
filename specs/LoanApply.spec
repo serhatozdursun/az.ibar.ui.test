@@ -1,5 +1,5 @@
 # Feature Credit Application
-Created by MehmetSerhatOzdursun on 03/11/2020
+Tags: regression
 
 * Go to "https://www.ibar.az"
 
@@ -9,9 +9,12 @@ Tags: case2
 A user must come to the credit conversion area on the home page and calculate 7500 AZN with 12
 months maturity with 20 percent and click Apply online button.
 
+* The "monthly_payment_amount" and "total_payment_amount" payment amounts are received
 * Type "7500" in the "loan_amount_input"
+* The "monthly_payment_amount" , "total_payment_amount" payment amounts received and the amounts on the page are compared
 * Type "6" in the "loan_term"
 * Type "20" in the "interest_rate"
+* The "monthly_payment_amount" , "total_payment_amount" payment amounts received and the amounts on the page are compared
 * Click the "online_apply" for credit button
 * Checks if the "tecili-kredit-sifarisi" page is loaded
 

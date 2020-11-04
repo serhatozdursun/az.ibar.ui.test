@@ -4,7 +4,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="14.0.1+7"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar"/>
+    <property name="user.dir" value="C:\Users\MehmetSerhatOzdursun\IdeaProjects\az.ibar.ui.test"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
     <property name="os.arch" value="amd64"/>
@@ -36,7 +36,7 @@
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\MehmetSerhatOzdursun"/>
-    <property name="tags" value="case3"/>
+    <property name="tags" value="regression"/>
     <property name="user.timezone" value="Europe/Istanbul"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="14"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="C:\Program Files\Maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="14"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtags=case3"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtags=regression"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>

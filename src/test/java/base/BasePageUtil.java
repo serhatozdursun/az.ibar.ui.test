@@ -107,5 +107,25 @@ public class BasePageUtil {
         String actualColor = String.format("#%02x%02x%02x", hexValue1, hexValue2, hexValue3);
         return actualColor;
     }
+
+    protected JavascriptExecutor getJSExecutor() {
+        return (JavascriptExecutor) driver;
+    }
+
+    protected Object executeJS(String jsStmt, boolean wait) {
+        return wait ? getJSExecutor().executeScript(jsStmt, "") : getJSExecutor().executeAsyncScript(jsStmt, "");
+    }
+
+    protected void scrollTo(int x, int y) {
+        String jsStmt = String.format("window.scrollTo(%d, %d);", x, y);
+        executeJS(jsStmt, true);
+    }
+
+    protected void scrollToElement(By element) {
+        WebElement elm = waitForElement(element);
+        if (element != null) {
+            scrollTo(elm.getLocation().getX(), elm.getLocation().getY());
+        }
+    }
 }
 

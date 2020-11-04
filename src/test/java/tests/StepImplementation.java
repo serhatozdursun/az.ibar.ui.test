@@ -14,12 +14,13 @@ import org.junit.jupiter.api.Assertions;
 
 import java.awt.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 public class StepImplementation extends BaseTest {
     GaugeBase base;
+    private double monthly;
+    private double total;
 
     @BeforeScenario
     public void before() throws UndefinedOsName {
@@ -91,4 +92,42 @@ public class StepImplementation extends BaseTest {
         assertEquals(exceptedColor, actual_left_border_color);
     }
 
+    @Step("The <monthly> and <total> payment amounts are received")
+    public void getLoanCalMonthlyAndTotalPaymentAmounts(String monthly, String total) throws UndefinedEnum, NoSuchSelector {
+        base.scrollToElement("loan_amount_input");
+        String s_monthly = base.getElementText(monthly);
+        String s_total = base.getElementText(total);
+        if (s_monthly != null)
+            s_monthly = s_monthly.split(" ")[0];
+        else
+            throw new NullPointerException("Monthly loan payment amount is null");
+        if (s_total != null)
+            s_total = s_total.split(" ")[0];
+        else
+            throw new NullPointerException("Total loan payment amount is null");
+
+        this.monthly = Double.parseDouble(s_monthly);
+        this.total = Double.parseDouble(s_total);
+    }
+
+    @Step("The <monthly> , <total> payment amounts received and the amounts on the page are compared")
+    public void compareMonthlyAndTotalPaymentAmount(String monthly, String total) throws UndefinedEnum, NoSuchSelector {
+        String s_monthly = base.getElementText(monthly);
+        String s_total = base.getElementText(total);
+        if (s_monthly != null)
+            s_monthly = s_monthly.split(" ")[0];
+        else
+            throw new NullPointerException("Monthly loan payment amount is null");
+        if (s_total != null)
+            s_total = s_total.split(" ")[0];
+        else
+            throw new NullPointerException("Total loan payment amount is null");
+
+        var currentMonthly = Double.parseDouble(s_monthly);
+        var currentTotal = Double.parseDouble(s_total);
+
+        //In a normal case, the loan calculation should be made and verified.
+        assertNotEquals(this.monthly, currentMonthly);
+        assertNotEquals(this.total, currentTotal);
+    }
 }
